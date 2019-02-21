@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
   // Jumping & Grounded variables
-  [HideInInspector] public bool jump = true;
+  public bool jump = false;
   public Transform groundCheck;
   private bool grounded = false;
   public float jumpForce = 1000f;
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
       jump = false;
     }
 
-    // If we start going to fast 
+    // If we start going to fast
     if (Mathf.Abs(rb2d.velocity.x) > speed)
     {
       rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * speed, rb2d.velocity.y);
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
   void Update()
   {
     grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
-
+    Debug.DrawLine (transform.position, groundCheck.position, Color.magenta);
     if (Input.GetButtonDown("Jump") && grounded)
     {
       jump = true;
