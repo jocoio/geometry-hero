@@ -38,7 +38,6 @@ public class ObstacleTriggerHandler : MonoBehaviour {
 	private void Update() {
 		if(canHop && Input.GetButtonDown("Jump")) {
 			jumped = true;
-			Debug.Log("JUMPED");
 		}
 	}
 }
