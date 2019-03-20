@@ -11,6 +11,7 @@ public class ToolTipTrigger : MonoBehaviour
 
     private Text text;
     private float timeout = 5;
+    private bool isActive = false;
 
     void Start() {
         tooltip.alpha = 0;
@@ -18,13 +19,18 @@ public class ToolTipTrigger : MonoBehaviour
     }
 
     void Update() {
-        if(tooltip.alpha > 0) {
-            timeout -= Time.deltaTime;
+        if(isActive) {
+            if (timeout < 0) {
+                tooltip.alpha = 0;
+                isActive = false;
+            }
+            else {
+                tooltip.alpha = 1;
+                timeout -= Time.deltaTime;
+            }
+
         }
-        if (timeout < 0) {
-            tooltip.alpha = 0;
-            timeout = 5;
-        }
+
     }
 
 
@@ -33,6 +39,7 @@ public class ToolTipTrigger : MonoBehaviour
 		if(other.gameObject.CompareTag("Player")) {
             text.text = tipText;
             tooltip.alpha = 1;
+            isActive = true;
 		}
 	}
 
