@@ -1,0 +1,219 @@
+{
+  "header": {
+    "PPQ": 480,
+    "timeSignature": [
+      4,
+      4
+    ],
+    "bpm": 89.9999550000225,
+    "name": ""
+  },
+  "tempo": [
+    {
+      "absoluteTime": 174720,
+      "seconds": 242.666788,
+      "bpm": 89.9999550000225
+    }
+  ],
+  "timeSignature": [
+    {
+      "absoluteTime": 0,
+      "seconds": 0,
+      "numerator": 4,
+      "denominator": 2,
+      "click": 24,
+      "notesQ": 8
+    }
+  ],
+  "startTime": 1.333334,
+  "duration": 10.166671749999997,
+  "tracks": [
+    {
+      "startTime": 1.333334,
+      "duration": 10.166671749999997,
+      "length": 14,
+      "notes": [
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 1.333334,
+          "velocity": 0.4409448818897638,
+          "duration": 0.16666674999999986
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 1.9972232208333334,
+          "velocity": 0.4409448818897638,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 2.666668,
+          "velocity": 0.4251968503937008,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 3.333335,
+          "velocity": 0.4251968503937008,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 4.000002,
+          "velocity": 0.4094488188976378,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 4.666669000000001,
+          "velocity": 0.41732283464566927,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 5.333336000000001,
+          "velocity": 0.41732283464566927,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 6.000003000000001,
+          "velocity": 0.41732283464566927,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 6.666670000000002,
+          "velocity": 0.41732283464566927,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 7.333337000000002,
+          "velocity": 0.4251968503937008,
+          "duration": 0.16666675000000009
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 8.000004000000002,
+          "velocity": 0.3858267716535433,
+          "duration": 0.1666667499999992
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 8.666671000000001,
+          "velocity": 0.4409448818897638,
+          "duration": 0.1666667499999992
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 9.333338,
+          "velocity": 0.4251968503937008,
+          "duration": 0.1666667499999992
+        },
+        {
+          "name": "C4",
+          "midi": 60,
+          "time": 10.000004999999998,
+          "velocity": 0.4251968503937008,
+          "duration": 0.1666667499999992
+        }
+      ],
+      "controlChanges": {
+        "7": [
+          {
+            "number": 7,
+            "time": 0,
+            "value": 0.7874015748031497
+          },
+          {
+            "number": 7,
+            "time": 0,
+            "value": 0.7874015748031497
+          },
+          {
+            "number": 7,
+            "time": 10.666671999999997,
+            "value": 0.7874015748031497
+          }
+        ],
+        "10": [
+          {
+            "number": 10,
+            "time": 0,
+            "value": 0.5039370078740157
+          },
+          {
+            "number": 10,
+            "time": 0,
+            "value": 0.5039370078740157
+          },
+          {
+            "number": 10,
+            "time": 10.666671999999997,
+            "value": 0.5039370078740157
+          }
+        ],
+        "64": [
+          {
+            "number": 64,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "number": 64,
+            "time": 1.3444451166666667,
+            "value": 0
+          },
+          {
+            "number": 64,
+            "time": 1.6083341375,
+            "value": 1
+          },
+          {
+            "number": 64,
+            "time": 2.666668,
+            "value": 0
+          }
+        ],
+        "91": [
+          {
+            "number": 91,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "number": 91,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "number": 91,
+            "time": 10.666671999999997,
+            "value": 1
+          }
+        ]
+      },
+      "id": 0,
+      "name": "Prelude",
+      "instrumentNumber": 0,
+      "instrument": "acoustic grand piano",
+      "instrumentFamily": "piano",
+      "channelNumber": 0,
+      "isPercussion": false
+    }
+  ]
+}

@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
   private bool grounded = false;
   public float jumpForce = 1000f;
   public float speed = 5f;
+  public float velocity = 3f;
 
   private Vector2 speedVector;
 
@@ -21,12 +22,13 @@ public class PlayerController : MonoBehaviour
   {
     //anim = GetComponent<Animator>();
     rb2d = GetComponent<Rigidbody2D>();
+    rb2d.velocity = new Vector2(velocity, rb2d.velocity.y);
   }
 
   void Start()
   {
     speedVector = new Vector2(speed, rb2d.velocity.y);
-
+  
   }
 
   void FixedUpdate()
@@ -37,15 +39,15 @@ public class PlayerController : MonoBehaviour
       jump = false;
     }
 
-    // If we start going to fast
-    if (Mathf.Abs(rb2d.velocity.x) > speed)
-    {
-      rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * speed, rb2d.velocity.y);
-    }
-    else
-    {
-      rb2d.AddForce(Vector2.right * speed);
-    }
+    // // If we start going to fast
+    // if (Mathf.Abs(rb2d.velocity.x) > speed)
+    // {
+    //   rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * speed, rb2d.velocity.y);
+    // }
+    // else
+    // {
+    //   rb2d.AddForce(Vector2.right * speed);
+    // }
   }
 
   void Update()
