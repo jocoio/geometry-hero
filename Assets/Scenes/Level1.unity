@@ -146,8 +146,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -165,8 +165,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -429,8 +429,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d71f3d600b27b4fec9a0de112aff5e33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!61 &88771662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -710,8 +710,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -727,8 +727,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -840,7 +840,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 112759080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354ca42dc04e145e5a58dc87938b4103, type: 3}
@@ -976,7 +976,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 1093504229}
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
@@ -1128,8 +1128,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa3e4ab6f3b494c18a4dd425cb7f4869, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   jump: 0
   groundCheck: {fileID: 830373426}
   jumpForce: 750
@@ -1357,7 +1357,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 879017740}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354ca42dc04e145e5a58dc87938b4103, type: 3}
@@ -1834,8 +1834,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 531ac8f3e5eca419db821c6c86edd641, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2059,7 +2059,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 1707577451}
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
@@ -2273,7 +2273,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 112759080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354ca42dc04e145e5a58dc87938b4103, type: 3}
@@ -2477,7 +2477,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 879017740}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354ca42dc04e145e5a58dc87938b4103, type: 3}
@@ -2780,7 +2780,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 112759080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354ca42dc04e145e5a58dc87938b4103, type: 3}
@@ -7536,8 +7536,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
@@ -7578,8 +7578,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6bfe73e7f6e341b681a18eed7db77d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!224 &1093504227 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3904854332099987046, guid: 6f655d8691bd9468cad179807d2d4710,
@@ -7662,7 +7662,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 879017740}
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
@@ -7706,8 +7706,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb5bd7390d76f41c381f0b663cedd620, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tipText: Welcome to Geometry Hero!
   tooltip: {fileID: 879017740}
   timeout: 5
@@ -8078,8 +8078,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb5bd7390d76f41c381f0b663cedd620, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tipText: The controls are simple...
   tooltip: {fileID: 879017740}
   timeout: 5
@@ -8270,7 +8270,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 1093504229}
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
@@ -8434,8 +8434,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c4afffeb966c46e7bc094ea4e6183a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   score: 0
   multiplier: 1
   combo: 0
@@ -8482,8 +8482,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb5bd7390d76f41c381f0b663cedd620, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   tipText: '...hit SPACE to Jump!'
   tooltip: {fileID: 879017740}
   timeout: 5
@@ -8700,8 +8700,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a89d8b85c7134302a7d524b3e8c625c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!224 &1707577449 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3904854332099987046, guid: 6f655d8691bd9468cad179807d2d4710,
@@ -8801,7 +8801,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 1093504229}
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
@@ -8890,7 +8890,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 112759080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354ca42dc04e145e5a58dc87938b4103, type: 3}
@@ -9101,7 +9101,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 1093504229}
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
@@ -9190,7 +9190,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 112759080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354ca42dc04e145e5a58dc87938b4103, type: 3}
@@ -9242,8 +9242,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
@@ -9284,8 +9284,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b77a5683aca86406a9cf587f2937714f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!4 &2027806827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4336505675771240, guid: ad75f0cf76e58452d99fce5fe7a8d60d,
@@ -9504,7 +9504,7 @@ PrefabInstance:
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
       propertyPath: tooltip
-      value: 
+      value:
       objectReference: {fileID: 879017740}
     - target: {fileID: 7668822549406124326, guid: 354ca42dc04e145e5a58dc87938b4103,
         type: 3}
@@ -9618,8 +9618,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -9660,8 +9660,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad1c39aa7126426fbf3bcff3c55280f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1001 &3904854332831676781
 PrefabInstance:
   m_ObjectHideFlags: 0
