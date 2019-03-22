@@ -22,7 +22,7 @@ public class EndLevel : MonoBehaviour
   {
     if (other.gameObject.CompareTag("Player"))
     {
-      SceneManager.LoadScene("MainMenu");
+      SceneManager.LoadScene("LevelSelect");
     }
   }
 

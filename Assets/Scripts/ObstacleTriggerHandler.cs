@@ -8,12 +8,13 @@ public class ObstacleTriggerHandler : MonoBehaviour {
 	private bool jumped = false;
 
 	private Score score;
+	private CameraMovement camera;
 
 	void Start() {
 		score = GameObject.FindGameObjectWithTag("Score").GetComponent<Score>();
+		camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraMovement>();
 	}
 
-	// If player enters trigger area, they can pick it up
 	void OnTriggerEnter2D(Collider2D other) {
 
 		if(other.gameObject.CompareTag("Player")) {
@@ -21,7 +22,6 @@ public class ObstacleTriggerHandler : MonoBehaviour {
 		}
 	}
 
-	// If they exit, they can't pick it up
 	void OnTriggerExit2D(Collider2D other) {
 		if(other.gameObject.CompareTag("Player")) {
 			canHop = false;
@@ -30,11 +30,12 @@ public class ObstacleTriggerHandler : MonoBehaviour {
 			}
 			else {
 				score.BreakCombo();
+				Debug.Log("About to shake");
+				StartCoroutine(camera.Shake(.1f, .25f));
 			}
 		}
 	}
 
-	// If they can pick it up and press E, item data is added to player inventory
 	private void Update() {
 		if(canHop && Input.GetButtonDown("Jump")) {
 			jumped = true;
