@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
   public float speed = 5f;
 
   private Vector2 speedVector;
+  private AudioSource audio;
 
 
   //private Animator anim;
@@ -19,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
   void Awake()
   {
-    //anim = GetComponent<Animator>();
+    audio = GetComponent<AudioSource>();
     rb2d = GetComponent<Rigidbody2D>();
   }
 
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
   {
     if (jump)
     {
+      audio.Play();
       rb2d.AddForce(new Vector2(0f, jumpForce));
       jump = false;
     }

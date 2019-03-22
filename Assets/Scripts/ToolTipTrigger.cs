@@ -10,7 +10,7 @@ public class ToolTipTrigger : MonoBehaviour
     public CanvasGroup tooltip;
 
     private Text text;
-    private float timeout = 5;
+    public float timeout = 5;
     private bool isActive = false;
 
     void Start() {
